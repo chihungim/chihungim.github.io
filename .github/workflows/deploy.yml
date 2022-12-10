@@ -43,4 +43,4 @@ jobs:
     - name: Fix permission
       run: | 
         chmod a+x bin/*
-        git commit -am "add execute permission to bin/deploy"
+        git commit -a -m "add execute permission to bin/deploy"
